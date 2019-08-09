@@ -1,4 +1,5 @@
 import React from 'react';
+import 'katex/dist/katex.min.css';
 import { Link, graphql } from 'gatsby';
 
 import Bio from '../components/bio.js';
@@ -6,6 +7,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Tag from '../components/common/tag.js';
 import styles from './blog-post.module.less';
+import './blog-post.less';
 
 class BlogPostTemplate extends React.Component {
   getTags() {

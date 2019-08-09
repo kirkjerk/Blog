@@ -17,6 +17,26 @@ To author a new post run `yarn new:post "Your Post Name Here"` a directory, and 
 
 Then you can author the post as normal with markdown. To run the server locally, run `yarn start`. Our CI system checks for spelling errors, you can run this yourself with `yarn check:spell`, you will be prompted to either fix your mistakes or add your mistakes to a dictionary. You can add yourself to `authors/authors.json`, with some basic info about yourself, and a thumbnail can be placed in `content/assets/authors`.
 
+## LaTeX
+
+We use [Katex](https://katex.org/) as our math setting library. Katex has a [large table](https://katex.org/docs/supported.html) of supported functions, and [environments](https://katex.org/docs/supported.html#environments).
+
+There are two modes to authoring equations `inline` and `display` 
+
+Inline uses a single opening/closing `$` and will inline the function.
+
+`$a^2 + b^2 = c^2$`
+
+Display mode will center and block the equations, those are wrapped in opening/closing `$$` with a new line.
+
+```
+$$
+a^2 + b^2 = c^2
+$$
+```
+
+
+
 
 ## Getting your post live
 
