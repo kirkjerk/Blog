@@ -1,4 +1,5 @@
 import React from 'react';
+import 'katex/dist/katex.min.css';
 import { Link, graphql } from 'gatsby';
 
 import Bio from '../components/bio.js';
