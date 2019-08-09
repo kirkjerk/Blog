@@ -15,11 +15,11 @@ Posts are written in markdown. You can use any markdown editor you like. [vscode
 
 To author a new post run `yarn new:post "Your Post Name Here"` a directory, and markdown file will be created for you in `content/blog/Your-Post-Name-Here`
 
-Then you can author the post as normal with markdown. To run the server locally, run `yarn start`. Our CI system checks for spelling errors, you can run this yourself with `yarn check:spell`, you will be prompted to either fix your mistakes or add your mistakes to a dictionary. You can add yourself to `authors/authors.json`, with some basic info about yourself, and a thumbnail can be placed in `content/assets/authors`.
+Then you can author the post as normal with markdown. To run the server locally, run `yarn install && yarn start`. Our CI system checks for spelling errors, you can run this yourself with `yarn check:spell`, you will be prompted to either fix your mistakes or add your mistakes to a dictionary. You can add yourself to `authors/authors.json`, with some basic info about yourself, and a thumbnail can be placed in `content/assets/authors`.
 
 ## LaTeX
 
-We use [Katex](https://katex.org/) as our math setting library. Katex has a [large table](https://katex.org/docs/supported.html) of supported functions, and [environments](https://katex.org/docs/supported.html#environments).
+We use [Katex](https://katex.org/) as our math typesetting library. Katex has a [large table](https://katex.org/docs/supported.html) of supported functions, and [environments](https://katex.org/docs/supported.html#environments).
 
 There are two modes to authoring equations `inline` and `display` 
 
