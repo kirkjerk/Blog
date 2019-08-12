@@ -11,11 +11,15 @@ You need:
 
 Posts are written in markdown. You can use any markdown editor you like. [vscode's markdown all in one](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) plugin is very good for rich editing markdown files. 
 
+(Unless you are one of the code owners of the blog, you may find it easier to fork a repository on Github and submit your pull requests from there.) 
+
 ## Authoring a new post
 
 To author a new post run `yarn new:post "Your Post Name Here"` a directory, and markdown file will be created for you in `content/blog/Your-Post-Name-Here`
 
-Then you can author the post as normal with markdown. To run the server locally, run `yarn install && yarn start`. Our CI system checks for spelling errors, you can run this yourself with `yarn check:spell`, you will be prompted to either fix your mistakes or add your mistakes to a dictionary. You can add yourself to `authors/authors.json`, with some basic info about yourself, and a thumbnail can be placed in `content/assets/authors`.
+Then you can author the post as normal with markdown. To run the server locally, run `yarn install && yarn start`. If all is well you will will be able to see the blog at [http://localhost:8000/](http://localhost:8000/)
+
+Our CI system checks for spelling errors, you can run this yourself with `yarn check:spell`, you will be prompted to either fix your mistakes or add your mistakes to a dictionary. You can add yourself to `authors/authors.json`, with some basic info about yourself, and a thumbnail can be placed in `content/assets/authors`.
 
 ## LaTeX
 
