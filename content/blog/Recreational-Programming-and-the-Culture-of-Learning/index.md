@@ -29,7 +29,7 @@ program, even if it was as simple as
 
 These computers were primitive and slow by today's standards, but could still do many
 cool things. Most versions of BASIC had commands for graphics and sound.
-Kids learned they could have the full power of the machine at their command...
+Kids learned they could have the full power of the machine at their command.
 In fact, many professional games weren't much better than what an amateur 
 could write at home.
 
