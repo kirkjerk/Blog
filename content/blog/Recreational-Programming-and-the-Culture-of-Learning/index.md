@@ -1,5 +1,5 @@
 ---
-title: Recreational Programming and the Culture of Learning
+title: Coding for Fun and the Culture of Learning
 date: "2019-08-12T18:11:52.750Z"
 author: "kisrael"
 tags:
@@ -8,7 +8,7 @@ tags:
 - javascript
 ---
 
-##Coding for Fun
+## Recreational Programming
 
 If you were a "child of the '80s" in the USA,
 there was a decent chance you had access to one of the 
@@ -28,28 +28,27 @@ program, even if it was as simple as
 ![A Commodore 64 Screenshot showing BASIC in action](BASIC.png)
 
 These computers were primitive and slow by today's standards, but could still do many
-cool things. Most versions of BASIC had commands for graphics and sound,
-and kids learned they could have the full power of the machine at their command...
-in fact, many professional games weren't that much better than what an amateur 
+cool things. Most versions of BASIC had commands for graphics and sound.
+Kids learned they could have the full power of the machine at their command...
+In fact, many professional games weren't much better than what an amateur 
 could write at home.
 
 Computers grew in power, ease-of-use, and connectivity,
 but the sense of "just by typing, I can make this computer do interesting stuff" was diminished. 
 Luckily, some amazing toolkits like [Processing](https://processing.org/) and its
 JavaScript cousin [p5.js](https://p5js.org/) have appeared to recover those abilities - and 
-CarGurus gave me a chance to to explain that to some of my fellow "Gurus" - as well as 
-to anybody reading this blog.
+CarGurus gave me a chance to to teach that to some of my fellow "Gurus" and to the readers of this blog.
 
-##Guru2Guru
+## Guru2Guru
 
-CarGurus helps create its *culture of learning* with its Guru2Guru program, a collection
+CarGurus fosters its *culture of learning* with its Guru2Guru program: a collection
 of peer-to-peer classes helping people in their professional development. For the summer, 
-we created a more casual edition called "G2G After Hours" - single session
+we created a more casual edition called *G2G After Hours* - single session
 classes where topics could be more fun and less focused on our day-to-day jobs.
-Topics included "Intro to Calligraphy",
-"Mixology", "Knitting", and "Photography Basics"...
+Topics included *Intro to Calligraphy*,
+*Mixology*, *Knitting*, and *Photography Basics*...
 
-My contribution was running a 2 hour class entitled "Making Virtual Toys, Games and Art".  
+My contribution was running a 2 hour class entitled *Making Virtual Toys, Games and Art*.  
 Here was the description on the sign-up website:
 
 >All developers know how to program for work… but what about for fun? 
@@ -67,7 +66,7 @@ work might not cover, as well as to enable people who had never programmed befor
 water in a supportive environment. (I encouraged the more experienced folks to pair up with the beginners 
 who might be running into just how picky computers are for the first time.) The course was based on p5.js...
 
-##Processing and p5.js
+## Processing and p5.js
 
 Processing was started in 2001 by Casey Reas and Ben Fry as a Java-based
 "flexible software sketchbook and a language for learning how to code within the context of the visual arts".
@@ -80,7 +79,7 @@ When I began working with Processing in 2004, I was delighted by its ease of use
 These days I suggest people use [p5.js](https://p5js.org/), the officially sanctioned JavaScript port. 
 It shares the principles of being very low friction to start with: you can go to its [online editor](https://editor.p5js.org/) and enter the following code:
 
-```
+```js
 function setup() {
   createCanvas(400, 400);
   strokeWeight(4);
@@ -96,7 +95,7 @@ If you do that and hit the run button - congratulations, you've just coded and r
 
 ![Screenshot of the p5.js example](p5example.png)
 
-There is enormous flexibility in that little canvas window Processing and p5.js provides - and more opportunities for dynamic, visually appealing interaction than what most day-to-day web programming offers. And you can think beyond the canvas, with libraries for manipulating the webpage DOM and connecting to external hardware, such as the computers microphone or maybe even an external devices. Even if your goal is just to make a static infographic, these toolkits provide worlds of flexibility that a typical graphing library will not have. (CarGurus also used p5.js's ability to generate SVGs to script generating  a series of images - for example 100 images of a fuel gauge-like percentage meter.)
+There is enormous flexibility in that little canvas window Processing and p5.js provides - and more opportunities for dynamic, visually appealing interaction than what most day-to-day web programming offers. Plus, you can think beyond the canvas, with libraries for manipulating the webpage DOM and connecting to external hardware, such as the computers microphone or maybe even an external devices. Even if your goal is just to make a static infographic, these toolkits provide worlds of flexibility that a typical graphing library will not have. (CarGurus also used p5.js's ability to generate SVGs to script generating  a series of images - for example 100 images of a fuel gauge-like percentage meter.)
 
 p5.js and its community provide all kinds of helpful information and support - to the extent that I worry my 2 hour workshop could be condensed into a 10 second version: "Go to the [p5.js page](https://p5js.org/), click around the "Learn" and "Web Editor" page, be brave and have fun!"
 
