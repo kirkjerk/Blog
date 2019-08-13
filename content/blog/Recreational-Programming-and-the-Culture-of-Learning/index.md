@@ -12,7 +12,7 @@ tags:
 
 If you were a "child of the '80s" in the USA,
 there was a decent chance you had access to one of the 
-8-bit home computers of the era - either at home or in the classroom or the local library. 
+8-bit home computers of the era &mbdash; either at home or in the classroom or the local library. 
 Most of those computers had a version of the programming language BASIC 
 built-in. Even if the computer was mostly used to play games, you typed a 
 BASIC command in order to load and run the game. There was a good chance you
@@ -36,14 +36,14 @@ could write at home.
 Computers grew in power, ease-of-use, and connectivity,
 but the sense of "just by typing, I can make this computer do interesting stuff" was diminished. 
 Luckily, some amazing toolkits like [Processing](https://processing.org/) and its
-JavaScript cousin [p5.js](https://p5js.org/) have appeared to recover those abilities - and 
+JavaScript cousin [p5.js](https://p5js.org/) have appeared to recover those abilities &mbdash; and 
 CarGurus gave me a chance to teach that to some of my fellow "Gurus" and to the readers of this blog.
 
 ## Guru2Guru
 
 CarGurus fosters its *culture of learning* with its Guru2Guru program: a collection
 of peer-to-peer classes helping people in their professional development. For the summer, 
-we created a more casual edition called *G2G After Hours* - single session
+we created a more casual edition called *G2G After Hours* &mbdash; single session
 classes where topics could be more fun and less focused on our day-to-day jobs.
 Topics included *Intro to Calligraphy*,
 *Mixology*, *Knitting*, and *Photography Basics*...
@@ -91,16 +91,16 @@ function draw() {
 }
 ```
 
-If you do that and hit the run button - congratulations, you've just coded and run your first piece of p5.js interactive art!
+If you do that and hit the run button &mbdash; congratulations, you've just coded and run your first piece of p5.js interactive art!
 
 ![Screenshot of the p5.js example](p5example.png)
 
-There is enormous flexibility in that little canvas window Processing and p5.js provides - and more opportunities for dynamic, visually appealing interaction than what most day-to-day web programming offers. Plus, you can think beyond the canvas, with libraries for manipulating the webpage DOM and connecting to external hardware, such as the computers microphone or maybe even an external devices. Even if your goal is just to make a static infographic, these toolkits provide worlds of flexibility that a typical graphing library will not have. (CarGurus also used p5.js's ability to generate SVGs to script generating  a series of images - for example 100 images of a fuel gauge-like percentage meter.)
+There is enormous flexibility in that little canvas window Processing and p5.js provides &mbdash; and more opportunities for dynamic, visually appealing interaction than what most day-to-day web programming offers. Plus, you can think beyond the canvas, with libraries for manipulating the webpage DOM and connecting to external hardware, such as the computers microphone or maybe even an external devices. Even if your goal is just to make a static infographic, these toolkits provide worlds of flexibility that a typical graphing library will not have. (CarGurus also used p5.js's ability to generate SVGs to script generating  a series of images &mbdash; for example 100 images of a fuel gauge-like percentage meter.)
 
-p5.js and its community provide all kinds of helpful information and support - to the extent that I worry my 2 hour workshop could be condensed into a 10 second version: "Go to the [p5.js page](https://p5js.org/), click around the "Learn" and "Web Editor" page, be brave and have fun!"
+p5.js and its community provide all kinds of helpful information and support &mbdash; to the extent that I worry my 2 hour workshop could be condensed into a 10 second version: "Go to the [p5.js page](https://p5js.org/), click around the "Learn" and "Web Editor" page, be brave and have fun!"
 
 ##Resources
 
 * [Processing.org](https://Processing.org) and [p5js.org](https://p5js.org) contain lots of excellent starting material
 * [OpenProcessing](https://openprocessing.org/) is a community site where people show off their own art and games, including the source code
-* The [p5.js reference](https://p5js.org/reference/) is great, but potentially overwhelming at first - I created a [Good Parts Edition](http://kirkdev.blogspot.com/2019/08/p5-reference-good-parts-edition.html) that focuses on the commands that have proven most useful in my decade and a half of making virtual toys.
+* The [p5.js reference](https://p5js.org/reference/) is great, but potentially overwhelming at first &mbdash; I created a [Good Parts Edition](http://kirkdev.blogspot.com/2019/08/p5-reference-good-parts-edition.html) that focuses on the commands that have proven most useful in my decade and a half of making virtual toys.
