@@ -37,7 +37,7 @@ Computers grew in power, ease-of-use, and connectivity,
 but the sense of "just by typing, I can make this computer do interesting stuff" was diminished. 
 Luckily, some amazing toolkits like [Processing](https://processing.org/) and its
 JavaScript cousin [p5.js](https://p5js.org/) have appeared to recover those abilities - and 
-CarGurus gave me a chance to to teach that to some of my fellow "Gurus" and to the readers of this blog.
+CarGurus gave me a chance to teach that to some of my fellow "Gurus" and to the readers of this blog.
 
 ## Guru2Guru
 
@@ -61,7 +61,7 @@ Here was the description on the sign-up website:
 >Having some experience coding (any language) and basic understanding of conditionals, loops, and functions will help with this class, but is not mandatory.
 
 
-I designed the class to let experienced developers experiment with a type of programming their day to day 
+I designed the class to let experienced developers experiment with a type of programming their day-to-day 
 work might not cover, as well as to enable people who had never programmed before to dip their toes in the 
 water in a supportive environment. (I encouraged the more experienced folks to pair up with the beginners 
 who might be running into just how picky computers are for the first time.) The course was based on p5.js...
@@ -69,12 +69,12 @@ who might be running into just how picky computers are for the first time.) The 
 ## Processing and p5.js
 
 Processing was started in 2001 by Casey Reas and Ben Fry as a Java-based
-"flexible software sketchbook and a language for learning how to code within the context of the visual arts".
+"flexible software sketchbook and a language for learning how to code within the context of the visual arts."
 Over the years I've created many [toys](https://toys.alienbill.com/) and [games](https://games.alienbill.com/advent/)
 in it... it provided an excellent way to keep my Java skills from gathering too much rust when I was 
 focused on developing in other languages.
 
-When I began working with Processing in 2004, I was delighted by its ease of use - most environments require a lot of ceremony and boiler plate to do anything, but with Processing you can fire up the mini-IDE, type a few easy-to-remember statements, press the run button, and your program is off and running. Every command in its command list [reference page](https://processing.org/reference/) is a ready-to-run mini-program - encouraging quick experimentation and learning.
+When I began working with Processing in 2004, I was delighted by its ease of use &mdash; most environments require a lot of ceremony and boiler plate to do anything, but with Processing you can fire up the mini-IDE, type a few easy-to-remember statements, press the run button, and your program is off and running. Every command in its command list [reference page](https://processing.org/reference/) is a ready-to-run mini-program &mdash; encouraging quick experimentation and learning.
 
 These days I suggest people use [p5.js](https://p5js.org/), the officially sanctioned JavaScript port. 
 It shares the principles of being very low friction to start with: you can go to its [online editor](https://editor.p5js.org/) and enter the following code:
